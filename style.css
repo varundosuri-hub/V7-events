@@ -965,3 +965,51 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ===== MOBILE + FIXES ===== */
+
+.brand-text {
+  display: inline-block !important;
+}
+
+.brand-tagline {
+  display: inline-block !important;
+}
+
+section {
+  background: #121212;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+@media (max-width: 768px) {
+
+  .brand-text {
+    font-size: 12px;
+  }
+
+  .brand-tagline {
+    font-size: 11px;
+    opacity: 0.8;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 80px 20px;
+    text-align: center;
+  }
+}
