@@ -180,7 +180,7 @@ button { font: inherit; cursor: pointer; border: 0; background: none; color: inh
   box-shadow: 0 0 20px rgba(212,175,55,0.35);
   flex-shrink: 0;
 }
-.brand-text { display: none; flex-direction: column; line-height: 1.1; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-name {
   font-family: 'Playfair Display', serif;
   font-size: 13px;
